@@ -1,0 +1,21 @@
+name: Streak Tracker
+version: "0.1.0"
+slug: streak_tracker
+description: Track your habits and build streaks directly in Home Assistant.
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+init: false
+panel_icon: mdi:checkbox-marked-circle-plus-outline
+ingress: true
+ingress_port: 8099 # Standard port for Flask apps in HA addons
+panel_admin: false
+panel_title: Streak Tracker
+startup: application
+stage: experimental
+url: "https://github.com/" # Optional: Link to your repository
+options: {} # No user configuration options for now
+schema: {} # No user configuration schema for now 
