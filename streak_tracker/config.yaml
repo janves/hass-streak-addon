@@ -16,6 +16,6 @@ panel_admin: false
 panel_title: Streak Tracker
 startup: application
 stage: experimental
-url: "https://github.com/" # Optional: Link to your repository
+url: "https://github.com/janves/hass-streak-addon/"
 options: {} # No user configuration options for now
 schema: {} # No user configuration schema for now 
